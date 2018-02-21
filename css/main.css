@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, acronym, address, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+:focus {
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body, p, th, td, li, dd, dt {
+  font:1em Verdana,"Lucida Grande",Arial,Helvetica,Sans-Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:Verdana,"Lucida Grande",Arial,Helvetica,Sans-Serif;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.0em; }
+h4 { font-size: 1.0em; }
+h5 { font-size: 0.9em; }
+h6 { font-size: 0.8em; }
+
+body {
+	background-color: transparent;
+}
+
+.clear {clear: both;}
+
+.right {float:right;}
+
+.left {float:left;}
+
+.hide {display:none;}
+
+.center {text-align: center;}
+
+/*end RESET*/
+/*two parent tags*/
+
+body {
+	background: url(../img/px.jpg) repeat;
+	}
+
+#top {
+	position:absolute;
+	top:0px;
+	visibility:hidden;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/**/
+
+#contentwrap {
+	width: 780px;
+	height: 550px;
+	margin: 0px auto;
+	padding-top: 160px;
+	background: url(../img/mainburst.jpg) top no-repeat;
+	
+}
+
+#content {
+	margin: 50px auto 0px;
+	width: 500px;
+	background: url(../img/hellomyname.png) top no-repeat;
+	}
+	
+#content h1 {
+	text-indent: -9999px;
+	}
+	
+.spacer {
+	margin-top: 250px;
+	}
+
+#content p {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 12px;
+	color: #e8ddcb;
+	}
+
+#content a{
+	color:#8E0300;
+	font-size: 18px;
+	text-decoration: none;
+	}
+
+#content a:link{
+	}
+	
+#content a:visited{
+	}
+	
+#content a:hover{
+	text-decoration: underline;
+	}
+
+p span {
+	color:#8E0300;
+	font-size: 18px;
+	}
+	
+.barctic-logo {
+	padding-bottom: 10	px;
+	}
+
+/*social*/
+
+#soc {
+	float: right;
+	margin-right: 26px;
+	width: 80px;
+	height: 80px;
+	margin-top: -6px;
+	}
+
+#soc li {
+	display: inline-block;
+	margin: 5px 5px 0 0;
+	width: 32px;
+	height: 32px;
+	line-height: auto;
+	}
+
+#soc li a {
+	background-image:url('../img/iconsprites.png');
+	padding: 0px 16px 6px;
+	}
+	
+#soc li a.soc1 {background-position:-32px -32px;}
+#soc li a:hover.soc1 {background-position:-32px 0px;}
+#soc li a.soc2 {background-position:-64px -32px;}
+#soc li a:hover.soc2 {background-position:-64px 0px;}
+#soc li a.soc3 {background-position:-224px -32px;}
+#soc li a:hover.soc3 {background-position:-224px 0px;}
+#soc li a.soc4 {background-position:0px -32px;}
+#soc li a:hover.soc4 {background-position:0px 0px;}
+
+
+/*tweets*/
+
+#tweets {
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	width: 380px;
+	background-color: #034551;
+	margin: 5px 5px;
+	padding: 5px;
+	color: #e8ddcb;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-radius: 5px;
+}
+
+#tweets a{
+	color:#8E0300;
+	text-decoration: none;
+}
+
+/*contact form*/
+
+#contact {
+	display: block;
+	float: left;
+	margin-top: 20px;
+	}
+	
+#contact p{
+	display: block;
+	float: left;
+	margin-top: 46px;
+	}
+	
+#contact ul{
+	display: block;
+	float: left;
+	margin-top: 60px;
+	}
+	
+#contact a:hover{
+	background-color: black;
+	color: white;
+	}
+
+textarea {
+	}
+
+#firstimpt {
+	display: block;
+	float: left;
+	width: 500px;
+	}
+
+#message {
+	width: 500px;
+	float: left;
+	margin-top: 10px;
+	}
+
+#send {
+	margin-top: 10px;
+	width: 500px;
+	height: 40px;
+	font-size: 20px;
+	float: left;
+	background-color: #cdb380;
+	}
+	
+#send:hover {
+	background: #e8ddcb none repeat scroll 0 0;
+	cursor:pointer !important;
+}
+	
+#fname, #email{
+	display: block;
+	width: 235px;
+	height: 50px;
+	}
+	
+#fname {
+	float:left;
+	margin-right: 15px;
+	}
+	
+#email {
+	float:right;
+	}
+	
+#subject {
+	display: block;
+	float: left;
+	width: 500px;
+	height: 50px;
+	margin-top: 10px;
+	}
+
+#contact input, #contact textarea{
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-topright:6px;
+	-webkit-border-radius: 6px;
+	border:1px solid #cdb380;
+	color:#8e0300;
+	font-family:Palatino,Georgia,"Times New Roman",times,serif;
+	font-size:20px;
+	font-weight:300;
+	}
+
+/*validation messages*/
+
+.err {
+	text-align:center;
+	color: #8E0300;
+	font-weight: bold;
+	margin-bottom: 12px;
+	}
+
+.success {
+	text-align:center;
+	margin: auto;
+	color: #C0D860;
+	width: 100%;
+	}
+
+/*footer elements*/
+
+#footer {
+	display: block;
+	float: left;
+	width: 1000px;
+	}
+
+#footer p{ 
+	font-weight: bold; 
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	padding-top: 8px;
+	border-top: 2px black solid;
+	}
+
